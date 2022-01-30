@@ -1,0 +1,60 @@
+
+{
+    "generalKnowledgeOne" : [
+    {
+        "id":"gk001",
+        "questionText": "What word represents the letter \"T\" in the NATO phonetic alphabet?",
+        "answerOptions": [
+            { "answerText": "Target", "isCorrect": false },
+            { "answerText": "Taxi", "isCorrect": false },
+            { "answerText": "Tango", "isCorrect": true },
+            { "answerText": "Turkey", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"gk002",
+        "questionText": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
+        "answerOptions": [
+            { "answerText": "Sphere", "isCorrect": false },
+            { "answerText": "Cylinder", "isCorrect": false },
+            { "answerText": "Cube", "isCorrect": false },
+            { "answerText": "Pyramid", "isCorrect": true }
+        ]
+    },
+    {
+        "id":"gk003",
+        "questionText": "Five dollars is worth how many nickles?",
+        "answerOptions": [
+            { "answerText": "50", "isCorrect": true },
+            { "answerText": "25", "isCorrect": false },
+            { "answerText": "100", "isCorrect": false },
+            { "answerText": "69", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"gk004",
+        "questionText": "Who is depicted on the US hundred dollar bill?",
+        "answerOptions": [
+            { "answerText": "George Washington", "isCorrect": false },
+            { "answerText": "Abraham Lincoln", "isCorrect": false },
+            { "answerText": "Benjamin Franklin", "isCorrect": false },
+            { "answerText": "Thomas Jefferson", "isCorrect": true }
+        ]
+    },
+    {
+        "id":"gk005",
+        "questionText": "What do the letters in the GMT time zone stand for?",
+        "answerOptions": [
+            { "answerText": "Global Meridian Time", "isCorrect": false },
+            { "answerText": "General Median Time", "isCorrect": true },
+            { "answerText": "Greenwich Mean Time", "isCorrect": false },
+            { "answerText": "Glasgow Man Time", "isCorrect": false }
+        ]
+    }
+
+]
+}
+
+
+    
+

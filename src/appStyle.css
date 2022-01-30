@@ -1,0 +1,18 @@
+html {
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #0077ff;
+    --color-text: #333;
+}
+
+html[data-theme='dark']{
+
+    --bg: #333;
+    --bg-panel: #434343;
+    --color-headings: #3694ff;
+    --color-text: #b5b5b5;
+}
+
+/* QUIZ GENERAL ----------------------------------------     */
+.quizGeneral{}
+.quizGeneral__card{}

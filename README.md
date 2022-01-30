@@ -13,7 +13,9 @@ Practise making React App, using a free API.
 
 ## TECH STACKS:
 - React,
-- styling: CSS with BEM naming convention,
+- React-router-dom, react-icons,
+- Hooks: useState, useEffect
+- styling: node sass.
 - API from https://opentdb.com/api_config.php
 
 ## PROGRESS:
