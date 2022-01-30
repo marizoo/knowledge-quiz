@@ -1,27 +1,20 @@
 
 
-the url:
-https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple
-
-
-
 ## DESCRIPTION:
-A Trivia / quiz app, using API, made with React.
+A Trivia / quiz app, using JSON API, made with React.
 
 ## OUTCOME:
-Practise making React App, using a free API.
+Practise making React App, using a JSON API.
 
 ## TECH STACKS:
 - React,
 - React-router-dom, react-icons,
-- Hooks: useState, useEffect
-- styling: node sass.
-- API from https://opentdb.com/api_config.php
+- Hooks: useState, useEffect,
+- styling: CSS with BEM naming convention
 
 ## PROGRESS:
 - Done: 
-- Progress: xoxo
-- Not Working: xoxo
+- Progress: logic done.
 
 ### Error Message(s):
 "xoxo"
@@ -29,6 +22,8 @@ Practise making React App, using a free API.
 ## How to run
 `yarn install`
 `yarn start`
+### Run JSON server:
+`npx json-server --watch data/db.json --port 8000`
 
 
 ## IMAGE:
