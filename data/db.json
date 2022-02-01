@@ -17,8 +17,8 @@
         "answerOptions": [
             { "answerText": "Sphere", "isCorrect": false },
             { "answerText": "Cylinder", "isCorrect": false },
-            { "answerText": "Cube", "isCorrect": false },
-            { "answerText": "Pyramid", "isCorrect": true }
+            { "answerText": "Cube", "isCorrect": true },
+            { "answerText": "Pyramid", "isCorrect": false }
         ]
     },
     {
@@ -37,8 +37,8 @@
         "answerOptions": [
             { "answerText": "George Washington", "isCorrect": false },
             { "answerText": "Abraham Lincoln", "isCorrect": false },
-            { "answerText": "Benjamin Franklin", "isCorrect": false },
-            { "answerText": "Thomas Jefferson", "isCorrect": true }
+            { "answerText": "Benjamin Franklin", "isCorrect": true },
+            { "answerText": "Thomas Jefferson", "isCorrect": false }
         ]
     },
     {
@@ -46,8 +46,8 @@
         "questionText": "What do the letters in the GMT time zone stand for?",
         "answerOptions": [
             { "answerText": "Global Meridian Time", "isCorrect": false },
-            { "answerText": "General Median Time", "isCorrect": true },
-            { "answerText": "Greenwich Mean Time", "isCorrect": false },
+            { "answerText": "General Median Time", "isCorrect": false },
+            { "answerText": "Greenwich Mean Time", "isCorrect": true },
             { "answerText": "Glasgow Man Time", "isCorrect": false }
         ]
     }

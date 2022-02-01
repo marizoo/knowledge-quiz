@@ -1,5 +1,4 @@
 
-
 ## DESCRIPTION:
 A Trivia / quiz app, using JSON API, made with React.
 
@@ -10,7 +9,7 @@ Practise making React App, using a JSON API.
 - React,
 - React-router-dom, react-icons,
 - Hooks: useState, useEffect,
-- styling: CSS with BEM naming convention
+- styling: Styled Components.
 
 ## PROGRESS:
 - Done: 

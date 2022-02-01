@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './appStyle.css'
+import './css/appStyle.min.css'
 import { Routes, Route } from 'react-router-dom';
 import  Login  from './components/login/Login';
 import  Welcome  from './components/welcome/Welcome';
