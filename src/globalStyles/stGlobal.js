@@ -1,6 +1,6 @@
 import { css } from "styled-components";
 
-export const mobile = (props) => {
+export const stMobile = (props) => {
   return css`
     @media only screen and (max-width: 768px) {
       ${props}
@@ -29,6 +29,24 @@ export const bgColor = () => {
 export const bgPanelColor = () => {
   return css`
     #EBEBEB
+    `;
+};
+
+export const color1 = () => {
+  return css`
+    salmon
+    `;
+};
+
+export const color2 = () => {
+  return css`
+    green
+    `;
+};
+
+export const color3 = () => {
+  return css`
+    purple
     `;
 };
 

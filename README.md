@@ -1,9 +1,12 @@
 
 ## DESCRIPTION:
-A Trivia / quiz app, using JSON API, made with React.
+A Trivia / quiz app, made with React.
 
 ## OUTCOME:
-Practise making React App, using a JSON API.
+### VERSION 1 (branch: main)
+- React Quiz App, data fetched using a JSON API.
+### VERSION 2 (branch: version1)
+- React Quiz App, with more categories & data fetched from Rapid API.
 
 ## TECH STACKS:
 - React,
@@ -13,17 +16,12 @@ Practise making React App, using a JSON API.
 
 ## PROGRESS:
 - Done: 
-- Progress: logic done.
-
-### Error Message(s):
-"xoxo"
 
 ## How to run
 `yarn install`
 `yarn start`
-### Run JSON server:
+### To Run JSON server:
 `npx json-server --watch data/db.json --port 8000`
 
-
 ## IMAGE:
-![Screenshot of the site](./screenshots/bs-03-zoobar-600.jpg)
+![Screenshot of the App](./screenshots/50.quiz-v1.png)

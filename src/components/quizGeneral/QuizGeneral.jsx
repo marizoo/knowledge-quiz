@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { StQuizGeneral } from './QuizGeneralStyle';
 
 const QuizGeneral = () => {
   const [datas, setDatas] = useState(null);
@@ -45,31 +46,32 @@ const QuizGeneral = () => {
     //     <p>{datas[2].questionText}</p>
     //   )}
     // </div>
-      <div className='quizGeneral'>
-        <div className='quizGeneral__card'>
+      <StQuizGeneral>
+        <div className='quizContainer'>
           {datas && !showScore && (
             <>
-              <p>Question {currentQuestion + 1} / {datas.length}.</p>
-              <p>{datas[currentQuestion].questionText}</p>
-              <p>
+              <p className='quizQuestionNumber'>Question {currentQuestion + 1} / {datas.length}.</p>
+              <span className='quizLine'></span>
+              <p className='quizQuestion'>{datas[currentQuestion].questionText}</p>
+              <div className='quizButtonContainer'>
                 {datas[currentQuestion].answerOptions.map(option => (
                   <button onClick={()=>handleAnswerButton(option.isCorrect)}>{option.answerText}</button>
                 ))}
-              </p>
+              </div>
             </>
           ) }
 
            {showScore && (
              <>
-              <div>You scored {score}/{datas.length}</div>
+              <div className='showScore'>You scored <span className='showScore__number'>{score}</span>/{datas.length}</div>
               <button onClick={refreshPage}>Play Again</button>
-              <button onClick={() =>navigate('/') }>Stop Playing</button>
+              <button className='buttonStopPlaying' onClick={() =>navigate('/') }>Stop Playing</button>
              </>
           )}
 
         </div>
         
-      </div>
+      </StQuizGeneral>
   )
 };
 

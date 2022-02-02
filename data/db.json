@@ -3,32 +3,32 @@
     "generalKnowledgeOne" : [
     {
         "id":"gk001",
-        "questionText": "What word represents the letter \"T\" in the NATO phonetic alphabet?",
+        "questionText": "How many colors are there in a rainbow?",
         "answerOptions": [
-            { "answerText": "Target", "isCorrect": false },
-            { "answerText": "Taxi", "isCorrect": false },
-            { "answerText": "Tango", "isCorrect": true },
-            { "answerText": "Turkey", "isCorrect": false }
+            { "answerText": "8", "isCorrect": false },
+            { "answerText": "9", "isCorrect": false },
+            { "answerText": "7", "isCorrect": true },
+            { "answerText": "10", "isCorrect": false }
         ]
     },
     {
         "id":"gk002",
-        "questionText": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
+        "questionText": "What do the letters of the fast food chain KFC stand for?",
         "answerOptions": [
-            { "answerText": "Sphere", "isCorrect": false },
-            { "answerText": "Cylinder", "isCorrect": false },
-            { "answerText": "Cube", "isCorrect": true },
-            { "answerText": "Pyramid", "isCorrect": false }
+            { "answerText": "Kentucky Fresh Cheese", "isCorrect": false },
+            { "answerText": "Kibbled Freaky Cow", "isCorrect": false },
+            { "answerText": "Kentucky Fried Chicken", "isCorrect": true },
+            { "answerText": "Kiwi Food Cut", "isCorrect": false }
         ]
     },
     {
         "id":"gk003",
-        "questionText": "Five dollars is worth how many nickles?",
+        "questionText": "What zodiac sign is represented by a pair of scales?",
         "answerOptions": [
-            { "answerText": "50", "isCorrect": true },
-            { "answerText": "25", "isCorrect": false },
-            { "answerText": "100", "isCorrect": false },
-            { "answerText": "69", "isCorrect": false }
+            { "answerText": "Libra", "isCorrect": true },
+            { "answerText": "Aries", "isCorrect": false },
+            { "answerText": "Capricorn", "isCorrect": false },
+            { "answerText": "Sagittarius", "isCorrect": false }
         ]
     },
     {
@@ -43,12 +43,12 @@
     },
     {
         "id":"gk005",
-        "questionText": "What do the letters in the GMT time zone stand for?",
+        "questionText": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
         "answerOptions": [
-            { "answerText": "Global Meridian Time", "isCorrect": false },
-            { "answerText": "General Median Time", "isCorrect": false },
-            { "answerText": "Greenwich Mean Time", "isCorrect": true },
-            { "answerText": "Glasgow Man Time", "isCorrect": false }
+            { "answerText": "Sphere", "isCorrect": false },
+            { "answerText": "Cylinder", "isCorrect": false },
+            { "answerText": "Pyramid", "isCorrect": false },
+            { "answerText": "Cube", "isCorrect": true }
         ]
     }
 

@@ -1,14 +1,19 @@
 import React from 'react';
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
+import { StWelcome } from './welcomeStyle';
+
+
 const Welcome = ({playerName}) => {
     const navigate = useNavigate();
 
   return (
-      <div className='welcome'>
-          <div className='welcome__title'> welcome {playerName}</div>
-         <div className='welcome__subtitle'>Pick a Category</div>
-         <button className='welcome__button' onClick={() => navigate('/general')}>General Knowledge</button>
-      </div>
+      <StWelcome>
+          <div className='welcome__container'>
+            <h2> Welcome, {playerName}</h2>
+            <span>Pick a Category</span>
+            <button onClick={() => navigate('/general')}>General Knowledge</button>
+         </div>
+      </StWelcome>
   )};
 
   export default Welcome;
