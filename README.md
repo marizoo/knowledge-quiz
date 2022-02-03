@@ -2,7 +2,7 @@
 ## DESCRIPTION:
 - A Trivia / quiz app, made with React.
 - Version 2.
-- [Youtube Video of the App](https://youtu.be/J_h2WUWCQFc)
+- [Youtube Video of the App](https://youtu.be/nE3mAab5-2U)
 
 ## OUTCOME:
 ### VERSION 1 (branch: main)
@@ -16,7 +16,7 @@
 - React Quiz App, 
     + with 3 categories
     - data fetched from a JSON API.
-- link to the App's video on youtube: https://
+- link to the App's video on youtube: https://youtu.be/nE3mAab5-2U
 ### VERSION 3 (branch: version3) 
 - status: pending.
 - React Quiz App, 
