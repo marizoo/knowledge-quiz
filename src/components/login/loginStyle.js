@@ -53,7 +53,12 @@ export const StLogin = styled.div`
       border-radius: 10px;
       font-weight: 300;
       font-weight: 400;
-      color: #333;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: #45b6b6;
     }
   }
 `;

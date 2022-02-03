@@ -1,5 +1,5 @@
-
 {
+
     "generalKnowledgeOne" : [
     {
         "id":"gk001",
@@ -49,6 +49,115 @@
             { "answerText": "Cylinder", "isCorrect": false },
             { "answerText": "Pyramid", "isCorrect": false },
             { "answerText": "Cube", "isCorrect": true }
+        ]
+    }
+
+],
+
+"geography" : [
+    {
+        "id":"g001",
+        "questionText": "What is the capital of Indonesia?",
+        "answerOptions": [
+            { "answerText": "Jogjakarta", "isCorrect": false },
+            { "answerText": "Bali", "isCorrect": false },
+            { "answerText": "Jakarta", "isCorrect": true },
+            { "answerText": "Kalimantan", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"g002",
+        "questionText": "What is the smallest country in the world?",
+        "answerOptions": [
+            { "answerText": "Maldives", "isCorrect": false },
+            { "answerText": "Monaco", "isCorrect": false },
+            { "answerText": "Vatican City", "isCorrect": true },
+            { "answerText": "Malta", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"g003",
+        "questionText": "What is the capital of South Korea?",
+        "answerOptions": [
+            { "answerText": "Seoul", "isCorrect": true },
+            { "answerText": "Pyongyang", "isCorrect": false },
+            { "answerText": "Taegu", "isCorrect": false },
+            { "answerText": "Kitakyushu", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"g004",
+        "questionText": "Greenland is a part of which kingdom?",
+        "answerOptions": [
+            { "answerText": "Sweden", "isCorrect": false },
+            { "answerText": "Norway", "isCorrect": false },
+            { "answerText": "Denmark", "isCorrect": true },
+            { "answerText": "Ireland", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"g005",
+        "questionText": "Which country does Austria not border?",
+        "answerOptions": [
+            { "answerText": "Slovenia", "isCorrect": false },
+            { "answerText": "Switzerland", "isCorrect": false },
+            { "answerText": "Pyramid", "isCorrect": false },
+            { "answerText": "Slovakia", "isCorrect": true }
+        ]
+    }
+
+],
+
+
+"computer" : [
+    {
+        "id":"c001",
+        "questionText": "What does CPU stand for?",
+        "answerOptions": [
+            { "answerText": "Computer Personal Unit", "isCorrect": false },
+            { "answerText": "Central Process Unit", "isCorrect": false },
+            { "answerText": "Central Processing Unit", "isCorrect": true },
+            { "answerText": "Central Processor Unit", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"c002",
+        "questionText": "What does LTS stand for in the software market?",
+        "answerOptions": [
+            { "answerText": "Long Term Support", "isCorrect": true },
+            { "answerText": "Long Taco Service", "isCorrect": false },
+            { "answerText": "Ludicrous Transfer Speed", "isCorrect": false },
+            { "answerText": "Ludicrous Turbo Speed", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"c003",
+        "questionText": "What language does Node.js use?",
+        "answerOptions": [
+            { "answerText": "Java", "isCorrect": false },
+            { "answerText": "PHP", "isCorrect": false },
+            { "answerText": "Python", "isCorrect": false },
+            { "answerText": "Javascript", "isCorrect": true }
+        ]
+    },
+    {
+        "id":"c004",
+        "questionText": "Which computer language would you associate Django framework with?",
+        "answerOptions": [
+            { "answerText": "C#", "isCorrect": false },
+            { "answerText": "C++", "isCorrect": false },
+            { "answerText": "Python", "isCorrect": true },
+            { "answerText": "Java", "isCorrect": false }
+        ]
+    },
+    {
+        "id":"c005",
+        "questionText": "In web design, what does CSS stand for?",
+        "answerOptions": [
+            { "answerText": "Counter Strike: Source", "isCorrect": false },
+            { "answerText": "Corrective Style Sheet", "isCorrect": false },
+            { "answerText": "Computer Style Sheet", "isCorrect": false },
+            { "answerText": "Cascading Style Sheet", "isCorrect": true }
         ]
     }
 

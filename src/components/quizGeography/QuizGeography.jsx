@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { StQuizGeneral } from './QuizGeneralStyle';
+import { StQuizGeography } from './QuizGeographyStyle'; 
 
-const QuizGeneral = () => {
+const QuizGeography = () => {
   const [datas, setDatas] = useState(null);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -10,7 +10,7 @@ const QuizGeneral = () => {
   
   const navigate = useNavigate();
 
-  const URL = 'http://localhost:8000/generalKnowledgeOne';
+  const URL = 'http://localhost:8000/geography';
   const getDatas = async () => {
     const response = await fetch(URL);
     const quiz = await response.json();
@@ -46,7 +46,7 @@ const QuizGeneral = () => {
     //     <p>{datas[2].questionText}</p>
     //   )}
     // </div>
-      <StQuizGeneral>
+      <StQuizGeography>
         <div className='quizContainer'>
           {datas && !showScore && (
             <>
@@ -72,8 +72,8 @@ const QuizGeneral = () => {
 
         </div>
         
-      </StQuizGeneral>
+      </StQuizGeography>
   )
 };
 
-export default QuizGeneral;
+export default QuizGeography;

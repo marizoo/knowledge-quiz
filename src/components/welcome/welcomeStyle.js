@@ -38,6 +38,20 @@ export const StWelcome = styled.div`
       font-weight: 300;
       font-weight: 400;
       color: white;
+      margin-bottom: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: #45b6b6;
+    }
+
+    .logoutButton {
+      background: grey;
+
+      &:hover {
+        background: #45b6b6;
+      }
     }
   }
 `;

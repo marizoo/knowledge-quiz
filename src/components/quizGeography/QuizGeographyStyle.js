@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { color1 } from "../../globalStyles/stGlobal";
 
-export const StQuizGeneral = styled.div`
+export const StQuizGeography = styled.div`
   height: 100vh;
   width: 100vw;
   display: flex;

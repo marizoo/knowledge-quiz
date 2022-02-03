@@ -1,15 +1,29 @@
 
 ## DESCRIPTION:
 - A Trivia / quiz app, made with React.
+- Version 2.
 - [Youtube Video of the App](https://youtu.be/J_h2WUWCQFc)
 
 ## OUTCOME:
 ### VERSION 1 (branch: main)
-- React Quiz App, data fetched from a JSON API.
+- status: 100% 
+- React Quiz App, 
+    - with 1 category
+    - data fetched from a JSON API.
 - link to the App's video on youtube: https://youtu.be/J_h2WUWCQFc
-### VERSION 2 (branch: version1) 
-- Status: pending.
-- React Quiz App, with more categories & data fetched from Rapid API.
+### VERSION 2 (branch: version2) 
+- status: 100%.
+- React Quiz App, 
+    + with 3 categories
+    - data fetched from a JSON API.
+- link to the App's video on youtube: https://
+### VERSION 3 (branch: version3) 
+- status: pending.
+- React Quiz App, 
+    + with add categories + add questions + answers features.
+    - with 3 categories
+    - data fetched from a JSON API.
+- link to the App's video on youtube: https://
 
 ## TECH STACKS:
 - React,
@@ -18,7 +32,7 @@
 - styling: Styled Components.
 
 ## PROGRESS:
-- Done: 
+- Done: 100%.
 
 ## How to run
 `yarn install`
@@ -32,4 +46,4 @@
 
 
 ## IMAGE:
-![Screenshot of the App](./screenshots/50.quiz-v1.png)
+![Screenshot of the App](./screenshots/50.quiz-v2.jpg)
