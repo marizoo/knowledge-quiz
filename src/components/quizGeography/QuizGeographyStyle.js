@@ -45,7 +45,6 @@ export const StQuizGeography = styled.div`
 
     button {
       cursor: pointer;
-      height: 2rem;
       width: 70%;
       background: ${color1};
       border: 0;
@@ -55,7 +54,8 @@ export const StQuizGeography = styled.div`
       color: white;
       margin: 0.5rem 0;
       transition: all 0.3s ease;
-      padding: 0 4px;
+      height: 2.5rem;
+      padding: 4px 4px;
     }
 
     button:hover {
